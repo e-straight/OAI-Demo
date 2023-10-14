@@ -45,3 +45,7 @@ RAG |- Able to access a large variety of documents. <br>- Creating and searching
 
 That's all folks! Thanks for attending this demo.
 
+## Acknowledgements
+
+*This demo was adapted from the [azure-openai-demo](https://github.com/revodavid/azure-openai-lab/tree/main) by [revodavid](https://github.com/revodavid) and [Use your own data with Azure Open AI Service from Microsoft Learn](https://microsoftlearning.github.io/mslearn-openai/Instructions/Labs/06-use-own-data.html).*
+

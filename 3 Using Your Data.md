@@ -75,6 +75,9 @@ Not only can customers of Margie's Travel use this chatbot, but so can Margie's 
 `Can you generate a 1 paragraph email ad for me about Margie's Travel?`
 
 ## System Message
+The System Message "gives the model instructions about how it should behave and any context it should reference when generating a response. You can describe the assistant’s personality, tell it what it should and shouldn’t answer, and tell it how to format responses. There’s no token limit for this section, but it will be included with every API call, so it counts against the overall token limit."
+
+This allows the user to further engineer how the model will respond to prompts.
 
 ## Clean up
 When you’re done with your Azure OpenAI resource, remember to delete the resource in the Azure portal. Be sure to also include the storage account and search resource, as those can incur a relatively large cost.
