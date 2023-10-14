@@ -27,6 +27,7 @@ Prompt Engineering | -Easy to perform as it does not require any additional tech
 Fine-Tuning | -The LLM becomes specifically customized to the new data it was fine-tuned on. | - Fine-Tuning is very expensive and time consuming. <br> - The model has to be fine-tuned again if new data needs to be added.|
 RAG |- Able to access a large variety of documents. <br>- Creating and searching through a vector index is economical. | - Still need to perform prompt engineering for maximum benefits, <br> -Performance of RAG is dependent on the quality of data and documents in the vector index.
 ## Scenarios:
+
 * The fashion company ChaosShop is constantly adding new items to their store, but wants customers to be able to use their interactive chatbot that gives up to date suggestions and information about their products.
   - RAG would be a good solution to use in this scenario, as the vector index can be continuously updated, and the LLM can give up to date responses to customers. 
 

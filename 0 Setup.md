@@ -57,4 +57,4 @@ Once your Azure OpenAI deployment is complete:
 
 ## Next Steps
 
-You're all set! Proceed to [1 Explore Models.md](1%20Explore%20Models.md) to start the workshop proper. FIX LINK
+You're all set! Proceed to [1 Explore Models.md](https://github.com/e-straight/OAI-Demo/blob/main/1%20Explore%20Models.md) to start the workshop proper.

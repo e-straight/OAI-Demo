@@ -134,4 +134,4 @@ There has never been a poet (nor indeed any person, according to web search) nam
 
 ## Next Steps
 
-Now, proceed to [3 Tokens.md](3%20Tokens.md). FIX LINK!
+Now, proceed to [3 Using Your Data.md](https://github.com/e-straight/OAI-Demo/blob/main/3%20Using%20Your%20Data.md).

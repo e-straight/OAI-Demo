@@ -32,4 +32,4 @@ There are many considerations when choosing a model, including cost, availabilit
 
 Return to the Azure OpenAI Studio home page by clicking "🏠 Azure OpenAI" in the left-hand column.
 
-Now, proceed to [2 Completions.md](2%20Completions.md) FIX LINK!
+Now, proceed to [2 Completions.md](https://github.com/e-straight/OAI-Demo/blob/main/2%20Completions.md)
