@@ -17,4 +17,4 @@ Can you create a mock brochure for me that includes the Statue of Liberty and th
 
 - The more specific you are with your prompts, the better results you will get.
 
-Now, proceed to [5 PE vs FT vs RAG.md](https://github.com/e-straight/OAI-Demo/blob/main/PE%20vs%20FT%20vs%20RAG.md).
+Now, proceed to [5 PE vs FT vs RAG.md](https://github.com/e-straight/OAI-Demo/blob/main/5%20PE%20vs%20FT%20vs%20RAG.md).
