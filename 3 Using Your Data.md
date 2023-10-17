@@ -91,4 +91,4 @@ This allows the user to further engineer how the model will respond to prompts.
 ## Clean up
 When you’re done with your Azure OpenAI resource, remember to delete the resource in the Azure portal. Be sure to also include the storage account and search resource, as those can incur a relatively large cost.
 
-Now, proceed to [4 DALL-E.md](https://github.com/e-straight/OAI-Demo/blob/main/3%20Using%20Your%20Data.md).
+Now, proceed to [4 DALL-E.md](https://github.com/e-straight/OAI-Demo/blob/main/4%20DALL-E.md).
