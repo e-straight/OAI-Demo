@@ -26,6 +26,10 @@ Once you have completed the Setup step, you can skip ahead to any of the other s
 1. [DALL-E](https://github.com/e-straight/OAI-Demo/blob/main/4%20DALL-E.md). Learn how to use DALL-E.
 1. [PE vs FT vs RAG](https://github.com/e-straight/OAI-Demo/blob/main/5%20PE%20vs%20FT%20vs%20RAG.md). Understand the difference between Prompt Engineering, Fine-Tuning, and Retrevial Augmented Generation (RAG).
 
+## More Resources:
+For more info on how to use Azure OpenAI in your solutions, check out:
+https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/
+
 ## Citations
 
 "OAI-Demo", Elijah Straight (Microsoft), 2023.
