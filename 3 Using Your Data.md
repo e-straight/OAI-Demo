@@ -26,7 +26,7 @@ Next, add your data in the chat playground to see how it responds with your data
 1. [Download the data](https://aka.ms/own-data-brochures) that you will use from GitHub. Extract the PDFs in the .zip provided.
 2. Navigate to the **Chat** playground, and select Add your data in the Assistant setup pane.
 3. Select **Add a data source** and choose Upload files from the dropdown.
-4. You’ll need to create a storage account and Azure Cognitive Search resource. Under the dropdown for the storage resource, select **Create a new Azure Blob storage resource**, and create a storage account with the following settings. Anything not specified leave as the default.
+4. You’ll need to create a storage account and Azure Cognitive Search resource. Under the dropdown for the storage resource, select **Create a new Azure Blob storage resource**, and create a storage account with the following settings. Anything not specified leave as the default. Azure Blob Storage is a scalable and secure object storage for cloud-native workloads, archives, data lakes, high-performance computing, and machine learning. [Learn more here](https://azure.microsoft.com/en-us/products/storage/blobs/).
 
 - **Subscription**: Same subscription as your Azure OpenAI resource
 - **Resource group**: Same resource group as your Azure OpenAI resource
@@ -35,7 +35,7 @@ Next, add your data in the chat playground to see how it responds with your data
 - **Performance**: Standard
 - **Redundancy**: Geo-zone-redundant storage (GZRS)
 
-5. Once the resource is being created, come back to Azure OpenAI Studio and select Create a new Azure Cognitive Search resource with the following settings. Anything not specified leave as the default.
+5. Once the resource is being created, come back to Azure OpenAI Studio and select Create a new Azure Cognitive Search resource with the following settings. Anything not specified leave as the default. Azure Cognitive Search is an AI-powered information retrieval platform, helps developers build rich search experiences and generative AI apps that combine large language models with enterprise data. [Learn more here](https://azure.microsoft.com/en-us/products/ai-services/cognitive-search).
 
 - **Subscription**: Same subscription as your Azure OpenAI resource
 - **Resource group**: Same resource group as your Azure OpenAI resource

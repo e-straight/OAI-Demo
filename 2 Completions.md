@@ -82,7 +82,7 @@ Natural language generative AI models have a number of limitations:
 
 Here are some example prompts that demonstrate these weaknesses:
 
-    When did Queen Elizabeth II die?
+    When is NYC tech week 2023?
 
 In this case, the model is limited by training data, which is current only up to September 2021.
 
@@ -112,7 +112,7 @@ Try it a few more times. Tip: you can click the "Regenerate" button to generate 
 
 ## Generative AI models have a limited memory
 
-If you navigate into the Configuration side panel you will see a "Past messages included" option. This option controls how much of the conversation is included in the prompt. The default value is 10, which means that the prompt includes the past 10 messages in the conversation. However, when a new session is created (by reloading the page for example), the conversation history is cleared.
+If you navigate into the Configuration side panel in the Chat playground you will see a "Past messages included" option. This option controls how much of the conversation is included in the prompt. The default value is 10, which means that the prompt includes the past 10 messages in the conversation. However, when a new session is created (by reloading the page for example), the conversation history is cleared.
 
 ## Generative AI models can't perform actions
 
