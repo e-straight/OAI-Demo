@@ -28,7 +28,10 @@ Once you have completed the Setup step, you can skip ahead to any of the other s
 
 ## More Resources:
 For more info on how to use Azure OpenAI in your solutions, check out:
-https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/
+
+- [Develop Generative AI solutions with Azure OpenAI Service
+](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/)
+- [Azure Samples: OpenAI](https://github.com/Azure-Samples/openai/tree/main)
 
 ## Citations
 
