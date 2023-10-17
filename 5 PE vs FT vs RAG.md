@@ -31,8 +31,8 @@ RAG |- Able to access a large variety of documents. <br>- Creating and searching
 * The fashion company ChaosShop is constantly adding new items to their store, but wants customers to be able to use their interactive chatbot that gives up to date suggestions and information about their products.
   - RAG would be a good solution to use in this scenario, as the vector index can be continuously updated, and the LLM can give up to date responses to customers. 
 
-* The consulting firm ERS has a specific financial report that they produce every single month that has a very rigid format that does not change on a month to month basis.
-  * Fine-tuning would be a good solution in this scenario as the report does not change much and it would be worth it for the firm to invest in fine-tuning a model.
+* The consulting firm ERS has a specific set of financial reports that they produce every single month that has a very rigid format that does not change on a month to month basis.
+  * Fine-tuning would be a good solution in this scenario as the reports does not change much and it would be worth it for the firm to invest in fine-tuning a model.
 
 * Miko is a graphic designer trying to use DALL-E to help her come up with some potential ideas for a social media flyer.
   * Prompt engineering would be a good solution in this scenario to help Miko select a specific idea for her flyer.

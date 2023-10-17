@@ -23,52 +23,39 @@ In the drop-downs under "Completions playground" make sure the following options
 
 In the prompt box (where you see the text "Start typing here"), you can enter any text you like, and then use one of your deployed models to generate a completion. Let's try a few examples.
 
-Enter the following in the prompt box: 
-
-    I climbed the apple tree and picked an
-    
-Now click the "Generate" button below the prompt box.
-
-The generated completion will appear in green in the prompt box, following the prompt you entered. The prompt box probably now contains: "I climbed the apple tree and picked an apple".
-
-## Useful prompts
-
-Clear the contents of the prompt box. (Control-A and then Delete should do the trick, or you can reload the page in your browser.) Repeat this process every time you want to enter a new prompt.
-
 By default, the Completions Playground limits the length of completions to 100 tokens (about 75 words). To allow for longer completions, change the "Max tokens" option in the right column from 100 to 1000.
 
-Now, try a few other prompts and observe the response. Here are some examples to try, but get creative with your own prompts and see what happens!
+Here are some examples to try, but get creative with your own prompts and see what happens!
 
 ```
-    What is the capital of Australia?
+What is the capital of Australia? Give me a fun fact about this city.
 ```
 ```
-    A recipe for banana bread, and an itemized shopping list of the ingredients.
+A recipe for banana bread, and an itemized shopping list of the ingredients.
 ```
 ```
-    What were the 10 top movies of 2001? Respond in the form of a table listing the movie name, the box office earnings, and the studio.
-```
-```
-    Write a Python function to calculate the nth prime number.
+What were the 10 top movies of 2001? Respond in the form of a table listing the movie name, the box office earnings, and the studio.
 ```
 
-## Generating novel content
 
-Even though completions are generated based on frequencies of similar content in the training data, generative AI models are still capable of generating novel content that has never existed before.
+## Load an example
 
-Try a prompt like this:
+The Completions playground has a variety of example scenarios already preloaded. Load an example and try it out.
 
-    Write a limerick about the Python programming language
+Feel free to try:
+```
+Generate an email
+```
+```
+Translate text
+```
+```
+Generate product name ideas
+```
 
-How was the limerick? If you didn't like it, you can always click the "Regenerate" button to generate a new one.
 
-Now, set the Temperature parameter in the top-left to zero. Click Regenerate. Click Regenerate again. What do you observe?
 
-The Temperature parameter controls how "creative" the model is allowed to be. At low values of "Temperature", the model is very likely to respond with the completion with the highest weight, limiting the variability in the responses. At higher values of Temperature, low-weighted completions become more likely to be generated, allowing for more creative (but less precise) responses.
 
-Here is another prompt to try with different Temperature values:
-
-    What is a unique and long name for a cat?
 
 **Make sure the Temperature parameter is reset to 1 before you continue.**
 
@@ -97,18 +84,6 @@ But you could ask the model to write Python code to calculate the square root of
 
 
 In the following section, we'll explore other aspects of completions.
-
-## Completions are non-deterministic
-
-Clear the contents of the prompt box. Enter the prompt below, then click "Generate".
-
-    I climbed the tree and picked a 
-
-(Note that we didn't specify a kind of tree this time.) Once again, your completion will appear in green. It might read "an apple", "a pear", or something else entirely. The completion is non-deterministic: the model is not guaranteed to generate the same completion for the same prompt every time. 
-
-Click the "Undo" button to delete the provided completion, and then click "Generate" again. What do you observe?
-
-Try it a few more times. Tip: you can click the "Regenerate" button to generate a new completion without deleting the previous one.
 
 ## Generative AI models have a limited memory
 

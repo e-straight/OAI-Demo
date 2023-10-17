@@ -14,9 +14,13 @@ Before connecting Azure OpenAI to your data, first observe how the base model re
 1. Navigate to the Chat playground, and make sure the gpt-35-turbo model you deployed is selected in the Configuration pane (this should be the default).
 2. Enter the following prompts, and observe the output.
 
- ```I'd like to take a trip to New York. Where should I stay?```
+ ```
+ I'd like to take a trip to New York. Where should I stay?
+ ```
 
-```What are some facts about New York?```
+```
+What are some facts about New York?
+```
 
 3. Try similar questions about tourism and places to stay for other locations that will be included in our grounding data, such as London, or San Francisco. You’ll likely get complete responses about areas or neighborhoods, and some general facts about the city.
 
@@ -62,9 +66,13 @@ Next, add your data in the chat playground to see how it responds with your data
 Now that you’ve added your data, ask the same questions as you did previously, and see how the response differs.
 
 
-```I'd like to take a trip to New York. Where should I stay?```
+```
+I'd like to take a trip to New York. Where should I stay?
+```
 
-```What are some facts about New York?```
+```
+What are some facts about New York?
+```
 
 You’ll notice a very different response this time, with specifics about certain hotels and a mention of Margie’s Travel, as well as references to where the information provided came from. If you open the PDF reference listed in the response, you’ll see the same hotels as the model provided.
 
@@ -72,8 +80,9 @@ Try asking it about other cities included in the grounding data, which are Dubai
 
 Not only can customers of Margie's Travel use this chatbot, but so can Margie's employees. Try asking the question:
 
-`Can you generate a 1 paragraph email ad for me about Margie's Travel?`
-
+```
+Can you generate a 1 paragraph email ad for me about Margie's Travel?
+```
 ## System Message
 The System Message "gives the model instructions about how it should behave and any context it should reference when generating a response. You can describe the assistant’s personality, tell it what it should and shouldn’t answer, and tell it how to format responses. There’s no token limit for this section, but it will be included with every API call, so it counts against the overall token limit."
 
